@@ -1,0 +1,11 @@
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\bin\Debug\net6.0\ArtOrder.Infrastructure.deps.json
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\bin\Debug\net6.0\ArtOrder.Infrastructure.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\bin\Debug\net6.0\ref\ArtOrder.Infrastructure.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\bin\Debug\net6.0\ArtOrder.Infrastructure.pdb
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.AssemblyInfoInputs.cache
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.AssemblyInfo.cs
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.csproj.CoreCompileInputs.cache
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ref\ArtOrder.Infrastructure.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.pdb

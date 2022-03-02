@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ArtOrder.Core/1.0.0": {
+        "dependencies": {
+          "ArtOrder.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ArtOrder.Core.dll": {}
+        }
+      },
+      "ArtOrder.Infrastructure/1.0.0": {
+        "runtime": {
+          "ArtOrder.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArtOrder.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArtOrder.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

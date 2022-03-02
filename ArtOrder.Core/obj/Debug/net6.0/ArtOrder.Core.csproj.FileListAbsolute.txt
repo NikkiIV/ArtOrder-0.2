@@ -1,0 +1,15 @@
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\bin\Debug\net6.0\ArtOrder.Core.deps.json
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\bin\Debug\net6.0\ArtOrder.Core.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\bin\Debug\net6.0\ref\ArtOrder.Core.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\bin\Debug\net6.0\ArtOrder.Core.pdb
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\bin\Debug\net6.0\ArtOrder.Infrastructure.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\bin\Debug\net6.0\ArtOrder.Infrastructure.pdb
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.csproj.AssemblyReference.cache
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.GeneratedMSBuildEditorConfig.editorconfig
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.AssemblyInfoInputs.cache
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.AssemblyInfo.cs
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.csproj.CoreCompileInputs.cache
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.csproj.CopyComplete
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ref\ArtOrder.Core.dll
+K:\WebProject\ArtOrder 0.2\ArtOrder.Core\obj\Debug\net6.0\ArtOrder.Core.pdb
