@@ -1,4 +1,5 @@
-﻿using ArtOrder.Models;
+﻿using ArtOrder.Core.Constants;
+using ArtOrder.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,6 +16,8 @@ namespace ArtOrder.Controllers
 
         public IActionResult Index()
         {
+            ViewData[MessageConstant.ErrorMessage] = "Error!";
+
             return View();
         }
 
