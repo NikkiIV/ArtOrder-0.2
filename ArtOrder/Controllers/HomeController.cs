@@ -16,12 +16,14 @@ namespace ArtOrder.Controllers
 
         public IActionResult Index()
         {
-            ViewData[MessageConstant.ErrorMessage] = "Error!";
+            //ViewData[MessageConstant.ErrorMessage] = "Грешка!";
+            //ViewData[MessageConstants.WarningMessage] = "Внимавай!";
+            ViewData[MessageConstants.SuccessMessage] = "Работи!";
 
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy(ErrorViewModel error)
         {
             return View();
         }

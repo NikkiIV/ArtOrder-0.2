@@ -8,8 +8,8 @@ namespace ArtOrder.ModelBinders
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {
             ValueProviderResult valueResult = bindingContext
-                .ValueProvider
-                .GetValue(bindingContext.ModelName);
+                                                .ValueProvider
+                                                .GetValue(bindingContext.ModelName);
 
             if (valueResult != ValueProviderResult.None && !String.IsNullOrEmpty(valueResult.FirstValue))
             {

@@ -11,11 +11,11 @@ namespace ArtOrder.ModelBinders
         {
             customDateFormat = _customDateFormat;
         }
+
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {
-            ValueProviderResult valueResult = bindingContext
-                .ValueProvider
-                .GetValue(bindingContext.ModelName);
+            ValueProviderResult valueResult = bindingContext.ValueProvider.GetValue(bindingContext.ModelName);
+
 
             if (valueResult != ValueProviderResult.None && !String.IsNullOrEmpty(valueResult.FirstValue))
             {
@@ -38,7 +38,6 @@ namespace ArtOrder.ModelBinders
                     {
                         bindingContext.ModelState.AddModelError(bindingContext.ModelName, e, bindingContext.ModelMetadata);
                     }
-                    
                 }
                 catch (Exception e)
                 {
