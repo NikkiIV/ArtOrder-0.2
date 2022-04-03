@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ArtOrder.Core.Constants;
-using ArtOrder.Data;
 using ArtOrder.ModelBinders;
+using ArtOrder.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

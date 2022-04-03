@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace ArtOrder.Data
+namespace ArtOrder.Infrastructure.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
