@@ -15,6 +15,11 @@
       "ProjectGuid": "19537f55-20da-4157-b1b2-002300def69e",
       "DisplayName": "ArtOrder.Infrastructure",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 3
