@@ -15,17 +15,17 @@ namespace ArtOrder.Infrastructure.Data
 
         [Required]
         [StringLength(100)]
-        public string Label { get; set; }
+        public string Name { get; set; }
 
         [StringLength(500)]
         public string? Description { get; set; }
 
-        [Required]
-        [Column(TypeName = "date")]
-        public DateTime DateFrom { get; set; } = DateTime.Today;
+        //[Required]
+        //[Column(TypeName = "date")]
+        //public DateTime DateFrom { get; set; } = DateTime.Today;
 
-        [Column(TypeName = "date")]
-        public DateTime? DateTo { get; set; }
+        //[Column(TypeName = "date")]
+        //public DateTime? DateTo { get; set; }
 
         public ICollection<Item> Items { get; set; } = new List<Item>();
     }
