@@ -64,13 +64,11 @@ K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\ArtOrder.RazorAssemblyInfo.
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\staticwebassets.build.json
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\staticwebassets.development.json
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\scopedcss\bundle\ArtOrder.styles.css
-K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\scopedcss\projectbundle\ArtOrder.bundle.scp.css
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\ArtOrder.csproj.CopyComplete
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\ArtOrder.dll
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\ref\ArtOrder.dll
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\ArtOrder.pdb
 K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\ArtOrder.genruntimeconfig.cache
-K:\WebProject\ArtOrder 0.2\ArtOrder\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutOld.cshtml.rz.scp.css
 K:\WebProject\ArtOrder 0.2\ArtOrder\bin\Debug\net6.0\MessagePack.dll
 K:\WebProject\ArtOrder 0.2\ArtOrder\bin\Debug\net6.0\MessagePack.Annotations.dll
 K:\WebProject\ArtOrder 0.2\ArtOrder\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll

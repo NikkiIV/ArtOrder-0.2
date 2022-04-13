@@ -3,16 +3,23 @@ using Microsoft.EntityFrameworkCore;
 using ArtOrder.Core.Constants;
 using ArtOrder.ModelBinders;
 using ArtOrder.Infrastructure.Data;
+using ArtOrder.Infrastructure.Data.Repositories;
+using ArtOrder.Infrastructure.Data.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+    {
+        options.SignIn.RequireConfirmedAccount = true;
+    })
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews()
@@ -22,6 +29,8 @@ builder.Services.AddControllersWithViews()
         options.ModelBinderProviders.Insert(1, new DoubleModelBinderProvider());
         options.ModelBinderProviders.Insert(2, new DateTimeModelBinderProvider(FormatingConstant.NormalDateFormat));
     });
+
+builder.Services.AddScoped<IApplicatioDbRepository, ApplicatioDbRepository>();
 
 var app = builder.Build();
 

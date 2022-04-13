@@ -9,3 +9,4 @@ K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Inf
 K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.dll
 K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ref\ArtOrder.Infrastructure.dll
 K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.pdb
+K:\WebProject\ArtOrder 0.2\ArtOrder.Infrastructure\obj\Debug\net6.0\ArtOrder.Infrastructure.csproj.AssemblyReference.cache
