@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NSS4xKWrar/vZ54stDwgzj/ZLE29rMXz6B1yXUQ+cmk=",
+  "Hash": "YQjOA3G3D14E21Lqxz6g8wNNERz8l61YP6Sti67qtTQ=",
   "Source": "ArtOrder",
   "BasePath": "_content/ArtOrder",
   "Mode": "Default",
@@ -1579,6 +1579,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ArtOrderLogo.png"
+    },
+    {
+      "Identity": "K:\\WebProject\\ArtOrder 0.2\\ArtOrder\\wwwroot\\img\\ArtOrderLogo2.png",
+      "SourceId": "ArtOrder",
+      "SourceType": "Discovered",
+      "ContentRoot": "K:\\WebProject\\ArtOrder 0.2\\ArtOrder\\wwwroot\\",
+      "BasePath": "_content/ArtOrder",
+      "RelativePath": "img/ArtOrderLogo2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ArtOrderLogo2.png"
     },
     {
       "Identity": "K:\\WebProject\\ArtOrder 0.2\\ArtOrder\\wwwroot\\img\\avatar.png",
