@@ -20,7 +20,9 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
     {
         options.SignIn.RequireConfirmedAccount = true;
     })
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 
 builder.Services.AddAuthentication()
     .AddFacebook(options =>
@@ -37,7 +39,7 @@ builder.Services.AddControllersWithViews()
         options.ModelBinderProviders.Insert(2, new DateTimeModelBinderProvider(FormatingConstant.NormalDateFormat));
     });
 
-builder.Services.AddScoped<IApplicatioDbRepository, ApplicatioDbRepository>();
+builder.Services.AddScoped<IApplicationDbRepository, ApplicationDbRepository>();
 
 var app = builder.Build();
 
@@ -61,6 +63,9 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapControllerRoute(
+    name: "Area",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
