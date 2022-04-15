@@ -10,18 +10,13 @@ namespace ArtOrder.Controllers
     public class UserController : BaseController
     {
         private readonly RoleManager<IdentityRole> roleManager;
-
-        private readonly UserManager<ApplicationUser> userManager;
-
         private readonly IUserService service;
 
         public UserController(
-             RoleManager<IdentityRole> _roleManager,
-             UserManager<ApplicationUser> _userManager,
-             IUserService _service)
+            RoleManager<IdentityRole> _roleManager, 
+            IUserService _service)
         {
             roleManager = _roleManager;
-            userManager = _userManager;
             service = _service;
         }
 
@@ -29,6 +24,5 @@ namespace ArtOrder.Controllers
         {
             return View();
         }
-
     }
 }

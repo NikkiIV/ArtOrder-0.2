@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace ArtOrder.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -18,7 +18,7 @@ namespace ArtOrder.Controllers
         {
             //ViewData[MessageConstant.ErrorMessage] = "Грешка!";
             //ViewData[MessageConstants.WarningMessage] = "Внимавай!";
-            ViewData[MessageConstants.SuccessMessage] = "Работи!";
+            //ViewData[MessageConstants.SuccessMessage] = "Работи!";
 
             return View();
         }
