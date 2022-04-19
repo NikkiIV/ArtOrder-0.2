@@ -1,10 +1,5 @@
 ﻿using ArtOrder.Core.Models;
 using ArtOrder.Infrastructure.Data.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ArtOrder.Core.Contracts
 {

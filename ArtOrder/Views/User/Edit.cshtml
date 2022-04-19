@@ -1,0 +1,47 @@
+﻿<div class="register-box" style="margin: auto;padding-top: 10%;">
+    <div class="card card-outline card-primary">
+        <div class="card-header text-center">
+            <a href="/Home/About" class="h1"><b>VSMS-</b>VIRTUS 4</a>
+        </div>
+        <div class="card-body">
+            <p class="login-box-msg">Редактиране на потребител: @ViewData["UserMail"]</p>
+
+            <form id="registerForm" method="post" class="login">
+                <input type="email" name="OldEmail" class="form-control" access="false" value = @ViewData["UserMail"] style="display:none;">
+                <div class="input-group mb-3">
+                    <input type="email" name="EmailChange" placeholder="Нова поща:" class="form-control" access="false" maxlength="250">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input class="form-control" name="PasswordChange"autocomplete="new-password" aria-required="true" placeholder="Нова парола"/>
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3" style="display:grid;">
+                    <label style="text-align:center; margin-top: 35px;">Нова длъжност</label>
+                    <select class="form-control" style="text-align:center; width: 100%;" name="RoleChange">
+                        <option value="NoChange" selected="true">Не се променя</option>
+                        <option value="Admin">Админ</option>
+                        <option value="Employee">Служител</option>
+                        <option value="Guest">Гост</option>
+                        <option value="Restricted">Ограничен</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3" style="display:none;" id="passAlert">
+                    <p>Паролите не съвпадат!</p>
+                </div>
+                <div class="col-4" style="max-width: 100%">
+                    <button type="submit" id="submitBTN" class="btn btn-primary btn-block">Приложи</button>
+                </div>
+            </form>
+        </div>
+        <a href="/Users/ListUsers" class="text-center" style="margin-bottom: 10px;">Отказ</a>
+    </div>
+</div>

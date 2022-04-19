@@ -1,5 +1,6 @@
 ﻿using ArtOrder.Core.Constants;
 using ArtOrder.Core.Contracts;
+using ArtOrder.Core.Models;
 using ArtOrder.Infrastructure.Data.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -22,6 +23,11 @@ namespace ArtOrder.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public async Task<IActionResult> Edit(string arg)
+        {           
             return View();
         }
     }

@@ -17,12 +17,13 @@ namespace ArtOrder.Infrastructure.Data
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Item> Items { get; set; }
-        public DbSet<OrderedItems> OrderedItems { get; set; }        
-        public DbSet<Sale> Sales { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }        
+        //public DbSet<Commission> Commissions { get; set; }
+        //public DbSet<CommissionOrder> CommissionOrder { get; set; }
+        //public DbSet<CommissionInfo> CommissionInfo { get; set; }
+        //public DbSet<Sales> Sales { get; set; }
+        //public DbSet<Products> Products { get; set; }
+        //public DbSet<Categories> Categories { get; set; }
+        //public DbSet<SalesProducts> SalesProducts { get; set; } 
         
     }
 }
