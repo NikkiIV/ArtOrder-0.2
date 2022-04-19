@@ -13,7 +13,7 @@ namespace ArtOrder.Core.Services
 {
     public class UserService : IUserService
     {
-        private readonly IApplicationDbRepository repo;
+        private readonly IApplicationDbRepository? repo;
 
         public UserService(IApplicationDbRepository _repo)
         {
@@ -29,24 +29,39 @@ namespace ArtOrder.Core.Services
         {
             var user = await repo.GetByIdAsync<ApplicationUser>(id);
 
-            return new UserEditViewModel()
+            var theUser = new UserEditViewModel()
             {
                 Id = user.Id,
                 FirstName = user.FirstName,
                 LastName = user.LastName
             };
+
+            return theUser;
         }
 
         public async Task<IEnumerable<UserListViewModel>> GetUsers()
         {
-            return await repo.All<ApplicationUser>()
-                .Select(u => new UserListViewModel()
+            var users = await repo.All<ApplicationUser>().
+                Select(u => new UserListViewModel()
                 {
                     Email = u.Email,
                     Id = u.Id,
                     Name = $"{u.FirstName} {u.LastName}"
                 })
                 .ToListAsync();
+
+            return users;
+
+            //return await repo.All<ApplicationUser>()
+            //    .Select(u => new UserListViewModel()
+            //    {
+            //        Email = u.Email,
+            //        Id = u.Id,
+            //        Name = $"{u.FirstName} {u.LastName}"
+            //    })
+            //    .ToListAsync();
+
+
         }
 
         public async Task<bool> UpdateUser(UserEditViewModel model)

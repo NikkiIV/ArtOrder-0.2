@@ -12,6 +12,10 @@ namespace ArtOrder.Infrastructure.Data
 
         [Required]
         [StringLength(30)]
+        public string Name { get; set; }
+
+        [Required]
+        [StringLength(30)]
         public string Type { get; set; }
 
         [Required]
@@ -22,18 +26,12 @@ namespace ArtOrder.Infrastructure.Data
         [StringLength(160)]
         public string Description { get; set; }
 
-        [Required]
-        [StringLength(30)]
-        public string Status { get; set; }
-
+        //-----USER
         [Required]
         [ForeignKey(nameof(User))]
-        //[StringLength(36)]
         public string UserId { get; set; }
 
-        [Required]
         public virtual ApplicationUser User { get; set; }
 
-        public string? FeedBack { get; set; }
     }
 }

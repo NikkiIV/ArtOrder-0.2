@@ -11,7 +11,8 @@ namespace ArtOrder.Infrastructure.Data.Identity
         [StringLength(50)]
         public string? LastName { get; set; }
 
-        //public ICollection<Commission> Commissions { get; set; } = new List<Commission>();
-        //public ICollection<CommissionOrder> Orders { get; set; } = new List<CommissionOrder>();
+        public ICollection<Commission> Commissions { get; set; } = new List<Commission>();
+        public ICollection<CommissionOrder> CommissionOrders { get; set; } = new List<CommissionOrder>();
+        public ICollection<Sales> Sales { get; set; } = new List<Sales>();
     }
 }

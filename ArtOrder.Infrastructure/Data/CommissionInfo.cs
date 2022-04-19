@@ -15,18 +15,25 @@ namespace ArtOrder.Infrastructure.Data
 
         [Required]
         [StringLength(30)]
-        public string TypeOfCommission { get; set; }
+        public string Name { get; set; }
 
         [Required]
-        public DateTime CommissionNumberDate { get; set; }
-
         [StringLength(30)]
-        public string Session { get; set; }
-
-        public DateTime SessionDate { get; set; }
+        public string Type { get; set; }
 
         [Required]
-        //[StringLength(36)]
+        public DateTime OrderDate { get; set; }
+        [Required]
+        public DateTime DueDate { get; set; }
+        
+        [Required]
+        [StringLength(30)]
+        public string Status { get; set; }
+
+        public string? Comments { get; set; }
+
+        //---CommissionOrder
+        [Required]
         [ForeignKey(nameof(CommissionOrder))]
         public Guid CommissionOrderId { get; set; }
 

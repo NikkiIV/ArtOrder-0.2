@@ -8,27 +8,26 @@ namespace ArtOrder.Infrastructure.Data
     {
         [Key]
         [StringLength(64)]
-        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         [Required]
-        public string DateTime { get; set; }
+        public DateTime OrderDate { get; set; }
 
+        //----USER
         [Required]
         public string UserId { get; set; }
 
         [Required]
         [ForeignKey(nameof(UserId))]
         public ApplicationUser User { get; set; }
+        //------
 
         [Required]
         [Range(minimum: 0, maximum: double.MaxValue)]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Total { get; set; }
 
-        public ICollection<SalesProducts> SalesProducts {get;set;}
-        public Sales()
-        {
-            SalesProducts = new List<SalesProducts>();
-        }
+        //----Products
+        public ICollection<Products> Products { get; set; } = new List<Products>();
     }
 }

@@ -1,8 +1,4 @@
-﻿using ArtOrder.Core.Constants;
-using ArtOrder.Core.Contracts;
-using ArtOrder.Core.Models;
-using ArtOrder.Infrastructure.Data.Identity;
-using Microsoft.AspNetCore.Authorization;
+﻿using ArtOrder.Core.Contracts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 

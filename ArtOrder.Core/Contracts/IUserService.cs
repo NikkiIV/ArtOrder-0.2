@@ -12,6 +12,5 @@ namespace ArtOrder.Core.Contracts
         Task<bool> UpdateUser(UserEditViewModel model);
 
         Task<ApplicationUser> GetUserById(string id);
-
     }
 }
