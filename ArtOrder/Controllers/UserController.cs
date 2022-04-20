@@ -1,4 +1,6 @@
-﻿using ArtOrder.Core.Contracts;
+﻿using ArtOrder.Core.Constants;
+using ArtOrder.Core.Contracts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,5 +28,25 @@ namespace ArtOrder.Controllers
         {           
             return View();
         }
+
+        [Authorize(Roles = UserConstants.Roles.Administrator)]
+        public async Task<IActionResult> ManageUsers()
+        {
+            var users = await service.GetUsers();
+
+            return Ok(users);
+            //return View(users);
+        }
+
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    //// --> UnComment only when need to create new role <--
+        //    //await roleManager.CreateAsync(new IdentityRole()
+        //    //{
+        //    //    Name = "Administrator"
+        //    //});
+
+        //    //return Ok();
+        //}
     }
 }

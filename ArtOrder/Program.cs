@@ -5,6 +5,8 @@ using ArtOrder.ModelBinders;
 using ArtOrder.Infrastructure.Data;
 using ArtOrder.Infrastructure.Data.Repositories;
 using ArtOrder.Infrastructure.Data.Identity;
+using ArtOrder.Core.Contracts;
+using ArtOrder.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +42,7 @@ builder.Services.AddControllersWithViews()
     });
 
 builder.Services.AddScoped<IApplicationDbRepository, ApplicationDbRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
