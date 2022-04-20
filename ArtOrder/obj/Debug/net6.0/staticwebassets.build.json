@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IcVo3YrXjntCwlxWHC/ivNOBx/08/cBfzfQ+TRnVVb0=",
+  "Hash": "CIGY4y+CZtWzIGyDFvNTP+SB/ELf7iWOkSdknIbah2Q=",
   "Source": "ArtOrder",
   "BasePath": "_content/ArtOrder",
   "Mode": "Default",
@@ -1596,6 +1596,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\AdminLTELogo.png"
+    },
+    {
+      "Identity": "K:\\WebProject\\ArtOrder 0.2\\ArtOrder\\wwwroot\\img\\ArtOrderBanner.png",
+      "SourceId": "ArtOrder",
+      "SourceType": "Discovered",
+      "ContentRoot": "K:\\WebProject\\ArtOrder 0.2\\ArtOrder\\wwwroot\\",
+      "BasePath": "_content/ArtOrder",
+      "RelativePath": "img/ArtOrderBanner.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ArtOrderBanner.png"
     },
     {
       "Identity": "K:\\WebProject\\ArtOrder 0.2\\ArtOrder\\wwwroot\\img\\ArtOrderLogo.png",

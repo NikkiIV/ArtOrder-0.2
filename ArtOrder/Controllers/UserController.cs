@@ -29,14 +29,14 @@ namespace ArtOrder.Controllers
             return View();
         }
 
-        [Authorize(Roles = UserConstants.Roles.Administrator)]
-        public async Task<IActionResult> ManageUsers()
-        {
-            var users = await service.GetUsers();
+        //[Authorize(Roles = UserConstants.Roles.Administrator)]
+        //public async Task<IActionResult> ManageUsers()
+        //{
+        //    var users = await service.GetUsers();
 
-            return Ok(users);
-            //return View(users);
-        }
+        //    return Ok(users);
+        //    //return View(users);
+        //}
 
         //public async Task<IActionResult> CreateRole()
         //{

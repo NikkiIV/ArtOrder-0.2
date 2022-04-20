@@ -2,6 +2,7 @@
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -84,7 +85,7 @@
                             <div class="icheck-primary">
                                 <input type="checkbox" id="agreeTerms" name="terms" value="agree">
                                 <label for="agreeTerms">
-                                    I agree to the <a href="#">terms</a>
+                                    I agree to the <a href="#">Terms</a>
                                 </label>
                             </div>
                         </div>
@@ -108,7 +109,7 @@
                     </a>
                 </div>*@
 
-                <a asp-page="./Login" class="text-center">I already have a membership</a>
+                <a asp-page="./Login" class="text-center">Return to Login </a>
             </div>
             <!-- /.form-box -->
         </div><!-- /.card -->
